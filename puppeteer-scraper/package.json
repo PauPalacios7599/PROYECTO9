@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "scrape": "node src/scraper.js",
+    "dev": "node src/scraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.13.1",
+    "puppeteer": "^24.6.1"
+  }
+}
