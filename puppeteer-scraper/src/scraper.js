@@ -44,7 +44,7 @@ let products = []
             ?.getAttribute('title')
             ?.trim()
           const price =
-            el.querySelector('.product-price')?.innerText?.trim() ||
+            el.querySelector('.js-precio_producto')?.innerText?.trim() ||
             'Precio no disponible'
           const image = el.querySelector('img.js-image_list_product')?.src
           return { name, price, image }
